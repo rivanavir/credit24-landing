@@ -10,20 +10,24 @@
 
 .top-banner{
   min-height: 768px;
-  background-image: url('http://placehold.it/1600x800');
-  background-size: 100%;
+  background: url('../images/top-banner.jpg') top center no-repeat;
+  background-size: cover;
 
-  background: rgba(252,56,42,0.4);
-  background: -moz-linear-gradient(-66deg, rgba(252,56,42,0.4) 0%, rgba(255,199,32,0.4) 50%, rgba(240,240,240,0.4) 100%);
-  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(252,56,42,0.4)), color-stop(50%, rgba(255,199,32,0.4)), color-stop(100%, rgba(240,240,240,0.4)));
-  background: -webkit-linear-gradient(-66deg, rgba(252,56,42,0.4) 0%, rgba(255,199,32,0.4) 50%, rgba(240,240,240,0.4) 100%);
-  background: -o-linear-gradient(-66deg, rgba(252,56,42,0.4) 0%, rgba(255,199,32,0.4) 50%, rgba(240,240,240,0.4) 100%);
-  background: -ms-linear-gradient(-66deg, rgba(252,56,42,0.4) 0%, rgba(255,199,32,0.4) 50%, rgba(240,240,240,0.4) 100%);
-  background: linear-gradient(135deg, rgba(252,56,42,0.4) 0%, rgba(255,199,32,0.4) 50%, rgba(240,240,240,0.4) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc382a', endColorstr='#f0f0f0', GradientType=1 );
+  // background: rgba(252,56,42,0.4);
+  // background: -moz-linear-gradient(-66deg, rgba(252,56,42,0.4) 0%, rgba(255,199,32,0.4) 50%, rgba(240,240,240,0.4) 100%);
+  // background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(252,56,42,0.4)), color-stop(50%, rgba(255,199,32,0.4)), color-stop(100%, rgba(240,240,240,0.4)));
+  // background: -webkit-linear-gradient(-66deg, rgba(252,56,42,0.4) 0%, rgba(255,199,32,0.4) 50%, rgba(240,240,240,0.4) 100%);
+  // background: -o-linear-gradient(-66deg, rgba(252,56,42,0.4) 0%, rgba(255,199,32,0.4) 50%, rgba(240,240,240,0.4) 100%);
+  // background: -ms-linear-gradient(-66deg, rgba(252,56,42,0.4) 0%, rgba(255,199,32,0.4) 50%, rgba(240,240,240,0.4) 100%);
+  // background: linear-gradient(135deg, rgba(252,56,42,0.4) 0%, rgba(255,199,32,0.4) 50%, rgba(240,240,240,0.4) 100%);
+  // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc382a', endColorstr='#f0f0f0', GradientType=1 );
 
+  @media (max-width: 768px){
+    background-position: 80% 0;
+  }
   @media (max-width: 414px){
     min-height: 0;
+    background-position: 88% 0;
   }
 
   header{
