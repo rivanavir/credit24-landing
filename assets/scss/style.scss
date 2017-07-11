@@ -58,6 +58,9 @@
 
   .top-banner-txt{
     padding: 82px 0 24px;
+    @media (max-width: 480px){
+      padding: 40px 0 24px;
+    }
     @media (max-width: 414px){
       padding:5px 0 0;
     }
@@ -68,6 +71,9 @@
       font-weight: 900;
       line-height: 1.04;
       margin: 0 0 12px;
+      @media (max-width: 480px){
+        font-size: 40px;
+      }
       @media (max-width: 414px){
         font-size: 30px;
       }
@@ -77,6 +83,9 @@
       line-height: 1.36;
       margin-bottom: 0;
       color:white;
+      @media (max-width: 480px){
+        font-size: 20px;
+      }
       @media (max-width: 414px){
         font-size: 18px;
       }
@@ -255,6 +264,9 @@ button.btn-yellow{
 .question-layer{
   background: #ffc720 url('../images/pattern.png') center 50px no-repeat;
   padding: 113px 0 0;
+  @media (max-width: 480px){
+    padding-top: 95px;
+  }
   @media (max-width: 414px){
     padding-top: 75px;
   }
@@ -266,6 +278,10 @@ button.btn-yellow{
     text-align: center;
     margin-top: 0;
     margin-bottom: 80px;
+    @media (max-width: 480px){
+      font-size: 34px;
+      margin-bottom: 70px;
+    }
     @media (max-width: 414px){
       margin-bottom: 60px;
       font-size: 26px;
@@ -282,11 +298,9 @@ button.btn-yellow{
       display: table;
       width: 100%;
       min-height: 42px;
-      border-radius: 21px;
       box-shadow: 0px 15px 30px 0 rgba(20, 46, 138, 0.06);
       overflow: hidden;
       @media (max-width: 414px){
-        border-radius: 0;
         margin-bottom: 10px;
       }
       &>*{
@@ -296,22 +310,28 @@ button.btn-yellow{
         width: 64px;
         background: #e95045;
         text-align: center;
+        border-radius: 21px 0 0 21px;
         position: relative;
         @media (max-width: 414px){
+          border-radius: 0;
           width: 46px;
         }
         img{
-          position: absolute;
-          line-height: 1;
-          left: 50%;
-          top: 50%;
-          margin-top: -6px;
-          margin-left: -8px;
+          // position: absolute;
+          // line-height: 1;
+          // left: 50%;
+          // top: 50%;
+          // margin-top: -6px;
+          // margin-left: -8px;
         }
       }
       .text-cell{
         background: #fff;
         padding: 8px 15px;
+        border-radius: 0 21px 21px 0;
+        @media (max-width: 414px){
+          border-radius: 0;
+        }
         span{
           font-size: 16px;
           font-weight: 300;
@@ -325,7 +345,7 @@ button.btn-yellow{
   .question-bottom-layer{
     background: #fff;
     position: relative;
-    @media (min-width: 415px){
+    @media (min-width: 481px){
       padding-bottom: 733px;
     }
     .triangle-down{
@@ -336,9 +356,9 @@ button.btn-yellow{
       padding-top: 16%;
       overflow: hidden;
       position: absolute;
-      top: 0;
+      top: -3px;
       z-index: 300;
-      @media (max-width: 414px){
+      @media (max-width: 480px){
         display: none;
       }
     }
@@ -356,7 +376,7 @@ button.btn-yellow{
   .list-block-wrap{
     position: relative;
     .list-block-inner{
-      @media (min-width: 415px){
+      @media (min-width: 481px){
         position: absolute;
         top: 0;
         z-index: 500;
@@ -378,7 +398,7 @@ button.btn-yellow{
     background: linear-gradient(135deg, rgba(233,105,69,1) 0%, rgba(232,60,72,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e96945', endColorstr='#e83c48', GradientType=1 );
 
-    @media (max-width: 414px){
+    @media (max-width: 480px){
       border-radius: 0;
       margin: 0 -15px;
       padding: 99px 20px 80px;
@@ -461,7 +481,7 @@ button.btn-yellow{
 footer{
   background-color: #f2f5f7;
   padding: 200px 0 84px;
-  @media (max-width: 414px){
+  @media (max-width: 480px){
     padding: 80px 0;
   }
   .footer-txt{
@@ -527,7 +547,7 @@ footer{
       @media (max-width: 768px){
         margin-bottom: 20px;
       }
-      @media (max-width: 414px){
+      @media (max-width: 480px){
         width: 270px;
       }
       &>*{
