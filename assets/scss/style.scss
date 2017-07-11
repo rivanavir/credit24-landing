@@ -90,6 +90,17 @@
         font-size: 18px;
       }
     }
+    &.rus-lang{
+      h2{
+        font-size: 30px;
+        @media (max-width: 480px){
+          font-size: 26px;
+        }
+      }
+      p{
+        font-size: 18px;
+      }
+    }
     ul.top-list{
       padding-top: 32px;
       @media (max-width: 414px){
