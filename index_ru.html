@@ -45,22 +45,28 @@
         <div class="row">
           <div class="col-md-7">
             <div class="panel">
-              <div class="panel-top-wrap">
-                <div class="panel-top-cell">
-                  <span>Cумма:</span>
-                  <b>1350€</b>
-                </div><!--
-                --><div class="panel-top-cell">
-                  <span>Ежемесячный платеж:</span>
-                  <b>68.95€</b>
+              <div class="panel-main-wrap">
+                <div class="panel-main">
+                  <p class="range-label">Используемая сумма: <span>1250€</span></p>
+                  <div class="range-wrap">
+                    <span class="count">0€</span>
+                    <input id="range1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="4000" data-slider-step="1" data-slider-value="1000"/>
+                    <span class="count">4000€</span>
+                  </div>
+                  <p class="range-label">Период: <span>12 месяцев</span></p>
+                  <div class="range-wrap">
+                    <span class="count">3</span>
+                    <input id="range2" data-slider-id='ex2Slider' type="text" data-slider-min="3" data-slider-max="36" data-slider-step="2" data-slider-value="14"/>
+                    <span class="count">36</span>
+                  </div>
+                </div>
+                <div class="panel-cell">
+                  <p class="ttl">Месячная плата:</p>
+                  <b>125€</b>
+                  <span>Интрес в месяц: 3,75%</span>
                 </div>
               </div>
-              <div class="panel-main">
-                <div class="range-wrap">
-                  <span class="count">50€</span>
-                  <input id="range1" data-slider-id='ex1Slider' type="text" data-slider-min="50" data-slider-max="4000" data-slider-step="1" data-slider-value="14"/>
-                  <span class="count">4000€</span>
-                </div>
+              <div class="panel-button-wrap">
                 <button type="button" class="btn btn-yellow">ОТПРАВИТЬ ЗАЯВКУ</button>
               </div>
             </div>
@@ -245,10 +251,10 @@
             <p>Credit24 предлагает кредит на основании лимита Кредитного счёта. При займе 1000 € на 12 месяцев с фиксированной процентной ставкой 45,00% годовых, KKM будет 56,50% в год, стоимость заключения договора 0 €, сумма платежей 1260,15 € и общая сумма выплаты 1260,15 €. Ознакомьтесь с условиями на credit24.ee и посоветуйтесь со специалистами по номеру 1324.</p>
             <a href="#" class="foot-ask">Вопросы?</a>
             <div class="row">
-              <div class="col-sm-6">
+              <div class="col-sm-6 btn-wrap-right">
                 <a href="#" class="btn btn-blue" data-toggle="modal" data-target="#phoneModal"><img src="./assets/images/button-icon-1.png" alt=""> <span>1324</span></a>
               </div>
-              <div class="col-sm-6">
+              <div class="col-sm-6 btn-wrap-left">
                 <a href="#" class="btn btn-blue" data-toggle="modal" data-target="#emailModal"><img src="./assets/images/button-icon-2.png" alt=""> <span>klienditeenindus@credit24.ee</span></a>
               </div>
             </div>
