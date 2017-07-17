@@ -10,7 +10,7 @@
 
 .top-banner{
   min-height: 768px;
-  background: url('../images/top-banner.jpg') top center no-repeat;
+  background: url('../images/top-banner.jpg') center center no-repeat;
   background-size: cover;
 
   // background: rgba(252,56,42,0.4);
@@ -58,7 +58,7 @@
 
   .top-banner-txt{
     // padding: 82px 0 24px;
-    padding: 40px 0 24px;
+    padding: 30px 0 24px;
     @media (max-width: 480px){
     }
     @media (max-width: 414px){
@@ -77,6 +77,10 @@
       }
       @media (max-width: 414px){
         font-size: 30px;
+      }
+      &.fs-40{
+        font-size: 40px;
+        line-height: 1.3;
       }
     }
     h4{
@@ -105,16 +109,22 @@
         font-size: 18px;
       }
     }
+    p.question{
+      text-transform: uppercase;
+      padding-bottom: 5px;
+      font-weight: bold;
+    }
     &.rus-lang{
       h2{
-        font-size: 30px;
-        line-height: 1.04;
+        font-size: 40px;
+        line-height: 1.3;
+        font-weight: bold;
         @media (max-width: 480px){
           font-size: 26px;
         }
       }
       p{
-        font-size: 18px;
+        // font-size: 18px;
       }
     }
     ul.top-list{
@@ -291,7 +301,7 @@
   }
 
   &.rational-bg{
-    background: url('../images/top-banner-rational.jpg') top center no-repeat;
+    background: url('../images/top-banner-rational.jpg') center center no-repeat;
     background-size: cover;
     .top-banner-txt{
       p{
@@ -303,7 +313,7 @@
   }
 
   &.emotional-bg{
-    background: url('../images/top-banner-emotional.jpg') top center no-repeat;
+    background: url('../images/top-banner-emotional.jpg') center center no-repeat;
     background-size: cover;
     .top-banner-txt{
       p{
@@ -537,15 +547,22 @@ button.btn-yellow{
   padding: 260px 0 120px;
   position: relative;
   background: #faa81a;
-  background: -moz-linear-gradient(top, #faa81a 0%, #ef403d 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, #faa81a), color-stop(100%, #ef403d));
-  background: -webkit-linear-gradient(top, #faa81a 0%, #ef403d 100%);
-  background: -o-linear-gradient(top, #faa81a 0%, #ef403d 100%);
-  background: -ms-linear-gradient(top, #faa81a 0%, #ef403d 100%);
-  background: linear-gradient(to bottom, #faa81a 0%, #ef403d 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#faa81a', endColorstr='#ef403d', GradientType=0 );
-  @media (max-width: 768px){
+  background: -moz-linear-gradient(top, #faa61a 0%, #ef413d 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #faa81a), color-stop(100%, #ef413d));
+  background: -webkit-linear-gradient(top, #faa61a 0%, #ef413d 100%);
+  background: -o-linear-gradient(top, #faa61a 0%, #ef413d 100%);
+  background: -ms-linear-gradient(top, #faa61a 0%, #ef413d 100%);
+  background: linear-gradient(to bottom, #faa61a 0%, #ef413d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#faa61a', endColorstr='#ef413d', GradientType=0 );
+  @media (min-width: 501px){
+    margin-top: -80px;
     // padding: 80px 0;
+  }
+  @media (max-width: 992px){
+    padding: 130px 0 120px;
+  }
+  @media (max-width: 992px){
+    padding: 65px 0 60px;
   }
   .triangle-left{
     box-sizing: content-box;
@@ -556,12 +573,25 @@ button.btn-yellow{
     z-index: 300;
     border-right: 100vw solid transparent;
     border-top: 260px solid #fff;
-    @media (max-width: 480px){
+    @media (max-width: 992px){
+      border-top: 130px solid #fff;
+    }
+    @media (max-width: 500px){
       display: none;
     }
   }
-  img.phone-card{
-    max-width: 100%;
+  .phone-img-wrap{
+    @media (min-width: 992px){
+      padding-top: 340px;
+    }
+    &.rus-lang{
+      @media (min-width: 992px){
+        padding-top: 280px;
+      }
+    }
+    img.phone-card{
+      max-width: 100%;
+    }
   }
   h2{
     font-size: 40px;
@@ -573,6 +603,19 @@ button.btn-yellow{
     @media (max-width: 768px){
       font-size: 30px;
     }
+    @media (max-width: 414px){
+      margin-bottom: 50px;
+    }
+    &.text-left{
+      text-align: left;
+    }
+    &.mb-75{
+      margin-bottom: 75px;
+      @media (max-width: 414px){
+        margin-bottom: 40px;
+        margin-top: 20px;
+      }
+    }
   }
   h5.info-bottom-text{
     font-size: 30px;
@@ -580,6 +623,33 @@ button.btn-yellow{
     line-height: 0.87;
     text-align: center;
     color: #ffffff;
+  }
+  ul.credit-check-list{
+    li{
+      position: relative;
+      padding: 18px 0;
+      img{
+        position: absolute;
+        top: 50%;
+        left: -11px;
+        margin-top: -20px;
+      }
+      span{
+        display: block;
+        padding-left: 50px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.44;
+        text-align: left;
+        color: #ffffff;
+      }
+    }
+  }
+  .wave-wrap{
+    padding: 100px 0 110px;
+    @media (max-width: 414px){
+      padding: 50px 0 55px;
+    }
   }
   .info-block{
     margin-bottom: 75px;
