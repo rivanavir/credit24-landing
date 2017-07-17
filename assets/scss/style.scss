@@ -613,7 +613,7 @@ button.btn-yellow{
 }
 
 .question-layer{
-  background: #ffc720 url('../images/pattern.png') center 50px no-repeat;
+  background: #faa61a url('../images/pattern.png') center 50px no-repeat;
   padding: 113px 0 0;
   @media (max-width: 480px){
     padding-top: 95px;
@@ -709,9 +709,9 @@ button.btn-yellow{
       left: 0;
       right: 0;
       z-index: 300;
-      border-left: 50vw solid transparent;
+      border-left: 49vw solid transparent;
       border-right: 50vw solid transparent;
-      border-top: 300px solid #ffc720;
+      border-top: 300px solid #faa61a;
       @media (max-width: 480px){
         display: none;
       }
@@ -734,14 +734,14 @@ button.btn-yellow{
     padding: 95px 98px 120px;
     box-shadow: 0px 30px 40px 0 rgba(0, 0, 0, 0.2);
     border-radius: 14px;
-    background: rgba(233,105,69,1);
-    background: -moz-linear-gradient(-45deg, rgba(233,105,69,1) 0%, rgba(232,60,72,1) 100%);
-    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(233,105,69,1)), color-stop(100%, rgba(232,60,72,1)));
-    background: -webkit-linear-gradient(-45deg, rgba(233,105,69,1) 0%, rgba(232,60,72,1) 100%);
-    background: -o-linear-gradient(-45deg, rgba(233,105,69,1) 0%, rgba(232,60,72,1) 100%);
-    background: -ms-linear-gradient(-45deg, rgba(233,105,69,1) 0%, rgba(232,60,72,1) 100%);
-    background: linear-gradient(135deg, rgba(233,105,69,1) 0%, rgba(232,60,72,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e96945', endColorstr='#e83c48', GradientType=1 );
+    background: #e96945;
+    background: -moz-linear-gradient(-65deg, #e96945 0%, #ef403d 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, #e96945), color-stop(100%, #ef403d));
+    background: -webkit-linear-gradient(-65deg, #e96945 0%, #ef403d 100%);
+    background: -o-linear-gradient(-65deg, #e96945 0%, #ef403d 100%);
+    background: -ms-linear-gradient(-65deg, #e96945 0%, #ef403d 100%);
+    background: linear-gradient(165deg, #e96945 0%, #ef403d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e96945', endColorstr='#ef403d', GradientType=1 );
 
     @media (max-width: 480px){
       border-radius: 0;
