@@ -108,11 +108,15 @@
         padding-bottom: 20px;
         font-size: 18px;
       }
+      &.fs-20{
+        font-size: 20px;
+      }
     }
     p.question{
       text-transform: uppercase;
       padding-bottom: 5px;
       font-weight: bold;
+      font-size: 20px;
     }
     &.rus-lang{
       h2{
@@ -121,6 +125,10 @@
         font-weight: bold;
         @media (max-width: 480px){
           font-size: 26px;
+        }
+        &.fs-40{
+          font-size: 40px;
+          line-height: 1.3;
         }
       }
       p{
@@ -144,11 +152,19 @@
         @media (max-width: 414px){
           text-transform: none;
         }
+        span{
+          text-transform: none;
+        }
         img{
           margin-right: 20px;
           @media (max-width: 414px){
             margin-right: 10px;
           }
+        }
+      }
+      &.fs-20{
+        li{
+          font-size: 20px;
         }
       }
     }
@@ -660,11 +676,15 @@ button.btn-yellow{
     .img-wrap{
       min-height: 80px;
     }
-    h4, p{
+    h4{
       color:white;
+      font-weight: bold;
     }
     p{
+      color:white;
+      font-weight: 500;
       font-size: 18px;
+      line-height: 26px;
     }
   }
   .add-cash-button-wrap{
