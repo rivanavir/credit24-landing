@@ -192,7 +192,7 @@
       h2{
         &.fs-40{
           font-size: 40px;
-          line-height: 40px;
+          line-height: 52px;
           margin-bottom: 21px;
         }
       }
@@ -625,7 +625,7 @@ button.btn-yellow{
 }
 
 .credit-layer{
-  padding: 260px 0 120px;
+  padding: 251px 0 130px;
   position: relative;
   background: #faa81a;
   background: -moz-linear-gradient(285deg, #faa61a 1%, #ef413d 100%); /* ff3.6+ */
@@ -653,7 +653,7 @@ button.btn-yellow{
     right: 0;
     z-index: 300;
     border-right: 100vw solid transparent;
-    border-top: 260px solid #fff;
+    border-top: 268px solid #fff;
     @media (max-width: 992px){
       border-top: 130px solid #fff;
     }
@@ -680,7 +680,8 @@ button.btn-yellow{
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;
-    margin: 0 0 100px;
+    margin: 0 0 92px;
+    line-height: 48px;
     @media (max-width: 768px){
       font-size: 30px;
     }
@@ -690,10 +691,10 @@ button.btn-yellow{
     &.text-left{
       text-align: left;
     }
-    &.mb-75{
-      margin-bottom: 75px;
+    &.mb-50{
+      margin-bottom: 50px;
       @media (max-width: 414px){
-        margin-bottom: 40px;
+        margin-bottom: 25px;
         margin-top: 20px;
       }
     }
@@ -708,26 +709,26 @@ button.btn-yellow{
   ul.credit-check-list{
     li{
       position: relative;
-      padding: 18px 0;
+      padding: 13px 0;
       img{
         position: absolute;
         top: 50%;
         left: -11px;
-        margin-top: -20px;
+        margin-top: -24px;
       }
       span{
         display: block;
         padding-left: 50px;
         font-size: 18px;
         font-weight: 500;
-        line-height: 1.44;
+        line-height: 1.5;
         text-align: left;
         color: #ffffff;
       }
     }
   }
   .wave-wrap{
-    padding: 100px 0 110px;
+    padding: 100px 0 112px;
     @media (max-width: 414px){
       padding: 50px 0 55px;
     }
@@ -739,20 +740,27 @@ button.btn-yellow{
     }
     .img-wrap{
       min-height: 80px;
+      margin-bottom: 0;
+      img{
+        width: auto;
+      }
     }
     h4{
       color:white;
       font-weight: bold;
+      line-height: 25px;
+      margin-bottom: 17px;
     }
     p{
       color:white;
       font-weight: 500;
       font-size: 18px;
       line-height: 26px;
+      padding: 0 8%;
     }
   }
   .add-cash-button-wrap{
-    padding-top: 40px;
+    padding-top: 26px;
     text-align: center;
     button.btn-yellow{
       width: 30%;
