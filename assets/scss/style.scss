@@ -679,6 +679,7 @@ button.btn-yellow{
 
 .credit-layer{
   padding: 251px 0 130px;
+  overflow: hidden;
   position: relative;
   background: #faa81a;
   background: -moz-linear-gradient(285deg, #faa61a 1%, #ef413d 100%); /* ff3.6+ */
