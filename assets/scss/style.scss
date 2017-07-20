@@ -203,6 +203,19 @@
           padding-bottom: 5px;
         }
       }
+      .top-banner-txt{
+        &.rus-lang{
+          padding: 20px 0 0 24px;
+          h2{
+            &.fs-40{
+              margin-bottom: 23px;
+            }
+          }
+          p.question{
+            font-size: 22px;
+          }
+        }
+      }
     }
   }
 
@@ -363,6 +376,18 @@
           margin-bottom: 30px;
         }
       }
+      &.rus-lang{
+        padding: 50px 0 24px;
+        h2.fs-40{
+          margin: 0 0 12px;
+        }
+        h4{
+          margin: 0 0 30px;
+        }
+        p{
+          line-height: 1.5;
+        }
+      }
     }
   }
 
@@ -458,6 +483,11 @@ button.btn-yellow{
       line-height: 1.5;
     }
   }
+  &.rus-lang{
+    p.quote-wrap{
+      min-height: 118px;
+    }
+  }
 }
 
 .rational-info-layer{
@@ -501,11 +531,27 @@ button.btn-yellow{
       line-height: 1.86;
       color: #ffffff;
       text-transform: uppercase;
+      margin-bottom: 0;
       &.number{
         text-transform: none;
         font-size: 30px;
         line-height: 0.87;
         margin-bottom: 8px;
+      }
+    }
+  }
+  &.rus-lang{
+    padding: 50px 0 38px;
+    .rat-info-block{
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+      padding-top: 0;
+      justify-content: center;
+      p{
+        &.number{
+
+        }
       }
     }
   }
@@ -622,6 +668,13 @@ button.btn-yellow{
       }
     }
   }
+  &.rus-lang{
+    padding: 114px 0 120px;
+    h2{
+      padding: 0 8%;
+      line-height: 47px;
+    }
+  }
 }
 
 .credit-layer{
@@ -732,6 +785,12 @@ button.btn-yellow{
     @media (max-width: 414px){
       padding: 50px 0 55px;
     }
+    &.rus-lang{
+      padding: 83px 0 112px;
+      @media (max-width: 414px){
+        padding: 40px 0 55px;
+      }
+    }
   }
   .info-block{
     margin-bottom: 75px;
@@ -759,6 +818,18 @@ button.btn-yellow{
       padding: 0 8%;
     }
   }
+  .emotional-rus-layer{
+    h2.emotional-head{
+      margin-bottom: 88px;
+    }
+    .info-block{
+      margin-bottom: 0;
+      min-height: 304px;
+      h4{
+        margin-bottom: 42px;
+      }
+    }
+  }
   .add-cash-button-wrap{
     padding-top: 26px;
     text-align: center;
@@ -772,6 +843,9 @@ button.btn-yellow{
         width: 100%;
       }
     }
+  }
+  &.rus-lang{
+    padding: 251px 0 121px;
   }
 }
 
