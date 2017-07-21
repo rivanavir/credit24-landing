@@ -1,5 +1,5 @@
 $(document).ready(function(){
 
-  $('#range1').slider({});
+  $('#range1, #range2').slider({});
 
 })
